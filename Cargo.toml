@@ -1,0 +1,16 @@
+[package]
+name = "actix-web-upload-file"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "1.0.8"
+serde = { version = "1.0.101", features = ["derive"] }
+actix-multipart = "0.1.4"
+futures = "0.1.29"
+actix-form-data = "0.4.0"
+mime = "0.3.14"
+failure = "0.1.5"
+uuid = { version = "0.7.4", features = ["serde", "v4"] }
